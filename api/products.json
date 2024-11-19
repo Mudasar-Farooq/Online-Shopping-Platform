@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "type": "Computers",
+        "brand": "Lenovo",
+        "price": "45000",
+        "stock": "50",
+        "des1": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "des2": "A powerful Lenovo laptop equipped with a quad-core i5 processor, 8GB RAM for multitasking, a 256GB SSD for fast storage, and a 14-inch FHD display for crystal-clear visuals. Suitable for students and professionals, it features long battery life and multiple connectivity options, including USB-C.",
+        "img": "imgs/p1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "type": "Mobile Phones",
+        "brand": "Samsung",
+        "price": "35000",
+        "stock": "120",
+        "des1": "A premium smartphone featuring a 6.5-inch AMOLED display, 8GB RAM, and a 128GB storage.",
+        "des2": "This premium Samsung smartphone features a stunning 6.5-inch AMOLED display for vibrant colors, 8GB RAM for smooth performance, and 128GB storage for all your apps and files. It also boasts a high-resolution triple camera setup, fast charging, and a sleek, modern design.",
+        "img": "imgs/p2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Smartwatch",
+        "type": "Wearables",
+        "brand": "Apple",
+        "price": "25000",
+        "stock": "80",
+        "des1": "Apple Watch Series 6 with fitness tracking, ECG monitoring, and heart rate sensor.",
+        "des2": "The Apple Watch Series 6 is a cutting-edge wearable that offers fitness tracking, ECG monitoring, and a heart rate sensor. It includes a customizable watch face, seamless integration with your iPhone for notifications, and advanced health-tracking capabilities such as blood oxygen monitoring and sleep analysis.",
+        "img": "imgs/p3.webp"
+    },
+    {
+        "id": 4,
+        "name": "Tablet",
+        "type": "Tablets",
+        "brand": "Samsung",
+        "price": "22000",
+        "stock": "60",
+        "des1": "10.4-inch Galaxy Tab A7 with 64GB storage and octa-core processor.",
+        "des2": "Samsung Galaxy Tab A7 features a 10.4-inch vibrant display, 64GB internal storage expandable up to 1TB, and an octa-core processor for smooth multitasking. Ideal for media consumption, it offers Dolby Atmos surround sound and a slim, portable design for easy use.",
+        "img": "imgs/p4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Bluetooth Speaker",
+        "type": "Audio",
+        "brand": "JBL",
+        "price": "4999",
+        "stock": "200",
+        "des1": "Portable Bluetooth speaker with 12 hours of playtime and water-resistant design.",
+        "des2": "The JBL Bluetooth speaker is a compact and portable device offering 12 hours of playtime and water resistance, making it perfect for outdoor use. It delivers deep bass, supports voice assistants, and includes a built-in microphone for hands-free calls.",
+        "img": "imgs/p5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Wireless Headphones",
+        "type": "Audio",
+        "brand": "Sony",
+        "price": "8000",
+        "stock": "150",
+        "des1": "Noise-cancelling headphones with 30-hour battery life and superior sound quality.",
+        "des2": "Sony's wireless noise-cancelling headphones provide up to 30 hours of battery life, superior audio quality, and quick charging for convenience. They feature Bluetooth 5.0, touch controls, and a foldable design for easy storage and travel.",
+        "img": "imgs/p6.webp"
+    },
+    {
+        "id": 7,
+        "name": "LED TV",
+        "type": "Home Appliances",
+        "brand": "LG",
+        "price": "30000",
+        "stock": "35",
+        "des1": "55-inch 4K UHD LED TV with webOS, AI Picture Pro, and Dolby Vision.",
+        "des2": "LG's 55-inch 4K UHD LED TV delivers stunning picture quality with AI Picture Pro and Dolby Vision. Powered by webOS, it provides access to popular streaming apps and supports HDR10, offering a premium home entertainment experience with voice control.",
+        "img": "imgs/p7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Gaming Console",
+        "type": "Gaming",
+        "brand": "Sony",
+        "price": "50000",
+        "stock": "70",
+        "des1": "PlayStation 5 with 4K gaming capabilities, dual sense controller, and high-speed SSD.",
+        "des2": "Sony PlayStation 5 offers an immersive gaming experience with 4K gaming capabilities, a DualSense controller featuring haptic feedback, and a high-speed SSD for lightning-fast load times. It supports ray tracing and a wide selection of AAA titles.",
+        "img": "imgs/p8.webp"
+    },
+    {
+        "id": 9,
+        "name": "Smart Air Purifier",
+        "type": "Home Appliances",
+        "brand": "Dyson",
+        "price": "22000",
+        "stock": "40",
+        "des1": "Dyson Pure Cool air purifier with HEPA filter and Wi-Fi connectivity.",
+        "des2": "The Dyson Pure Cool air purifier combines a HEPA filter and Wi-Fi connectivity to deliver clean air and smart controls. It monitors real-time air quality, offers a night mode for quieter operation, and connects to the Dyson app for advanced settings.",
+        "img": "imgs/p9.webp"
+    },
+    {
+        "id": 10,
+        "name": "Digital Camera",
+        "type": "Cameras",
+        "brand": "Canon",
+        "price": "55000",
+        "stock": "20",
+        "des1": "Canon EOS M50 with 24.1MP sensor, 4K video recording, and Dual Pixel AF.",
+        "des2": "The Canon EOS M50 features a 24.1MP sensor for stunning photography, 4K video recording, and Dual Pixel AF for fast and accurate focusing. Its vari-angle touchscreen and built-in Wi-Fi allow for creative shooting and easy sharing.",
+        "img": "imgs/p10.webp"
+    },
+    {
+        "id": 11,
+        "name": "Laptop Sleeve",
+        "type": "Accessories",
+        "brand": "AmazonBasics",
+        "price": "1200",
+        "stock": "150",
+        "des1": "Neoprene laptop sleeve with a zipper, for up to 15-inch laptops.",
+        "des2": "AmazonBasics neoprene laptop sleeve provides reliable protection for your laptop up to 15 inches. The sleek design with a zipper closure keeps your device safe from scratches and minor bumps while remaining lightweight and easy to carry.",
+        "img": "imgs/p11.webp"
+    },
+    {
+        "id": 12,
+        "name": "Portable Blender",
+        "type": "Kitchen ",
+        "brand": "Nutribullet",
+        "price": "3500",
+        "stock": "75",
+        "des1": "Compact portable blender with 600W power and USB charging.",
+        "des2": "The Nutribullet portable blender offers 600W of power, making it perfect for smoothies, shakes, and more. Its compact design and USB charging make it ideal for on-the-go use, whether at the gym, office, or traveling. Easy to clean and powerful for everyday blending needs.",
+        "img": "imgs/p12.webp"
+    },
+    {
+        "id": 13,
+        "name": "Electric Kettle",
+        "type": "Home Appliances",
+        "brand": "Philips",
+        "price": "1500",
+        "stock": "90",
+        "des1": "Philips 1.5L electric kettle with rapid boil and auto shut-off feature.",
+        "des2": "This Philips electric kettle has a 1.5L capacity, rapid boiling function, and an auto shut-off feature for safety. With a 360-degree swivel base, it's easy to use for both left- and right-handed users, perfect for quick tea or coffee preparation.",
+        "img": "imgs/p13.webp"
+    },
+    {
+        "id": 14,
+        "name": "Portable Power Bank",
+        "type": "Accessories",
+        "brand": "Anker",
+        "price": "2200",
+        "stock": "120",
+        "des1": "Anker 10000mAh portable power bank with fast charging and dual USB ports.",
+        "des2": "Anker's 10000mAh portable power bank offers fast charging and dual USB ports for charging multiple devices simultaneously. It provides enough power for your smartphone, tablet, or other USB devices, making it ideal for travel and emergencies.",
+        "img": "imgs/p14.webp"
+    },
+    {
+        "id": 15,
+        "name": "Robot Vacuum Cleaner",
+        "type": "Home Appliances",
+        "brand": "iRobot",
+        "price": "25000",
+        "stock": "30",
+        "des1": "iRobot Roomba 692 with Wi-Fi connectivity, voice control, and 3-stage cleaning system.",
+        "des2": "iRobot Roomba 692 robot vacuum cleaner is equipped with Wi-Fi connectivity, voice control, and a 3-stage cleaning system to effectively clean your home. It can be scheduled remotely through the iRobot Home app and works with Alexa and Google Assistant.",
+        "img": "imgs/p15.webp"
+    },
+    {
+        "id": 16,
+        "name": "Smart LED Bulb",
+        "type": "Home Appliances",
+        "brand": "Philips",
+        "price": "800",
+        "stock": "300",
+        "des1": "Philips Hue smart LED bulb with RGB color changing and voice control.",
+        "des2": "The Philips Hue smart LED bulb allows you to adjust colors and brightness remotely via the Philips Hue app or voice control with Alexa or Google Assistant. It helps create a personalized ambiance with millions of colors, suitable for any occasion.",
+        "img": "imgs/p16.webp"
+    },
+    {
+        "id": 17,
+        "name": "Smart Door Lock",
+        "type": "Home Appliances",
+        "brand": "August",
+        "price": "12000",
+        "stock": "50",
+        "des1": "August Smart Lock with keyless entry, remote access, and easy installation.",
+        "des2": "The August Smart Lock offers keyless entry, remote access through the August app, and integrates with smart home systems. It allows you to lock and unlock your door remotely and provides notifications on door activity, ensuring security and convenience.",
+        "img": "imgs/p17.webp"
+    },
+    {
+        "id": 18,
+        "name": "Electric Toothbrush",
+        "type": "Health & Beauty",
+        "brand": "Oral-B",
+        "price": "4500",
+        "stock": "180",
+        "des1": "Oral-B Pro 3000 electric toothbrush with pressure sensor and 3 cleaning modes.",
+        "des2": "The Oral-B Pro 3000 electric toothbrush features 3 cleaning modes and a pressure sensor to protect gums. It offers superior plaque removal compared to manual brushing, with a timer to ensure optimal brushing time, making it ideal for everyday oral care.",
+        "img": "imgs/p18.webp"
+    }
+]

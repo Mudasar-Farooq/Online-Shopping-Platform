@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="src/output.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <!-- <title>GREENMIND.com</title> -->
+</head>
+<style>
+    .main2_1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 95vw;
+        box-sizing: border-box;
+        margin: 2rem;
+    }
+
+    .payment {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .payment1 {
+        display: flex;
+        width: 100%;
+    }
+
+    .payment2 {
+        margin: auto;
+        margin-top: 3rem;
+        padding: 0.3rem;
+        border-radius: 4px;
+        width: 50%;
+        border: 1px solid black;
+        font-weight: 480;
+        background: #C5D3E8;
+        color: #392a20;
+    }
+
+    .payment2:hover {
+        color: #251d11;
+        background: #afbbcf;
+    }
+
+    .label {
+        width: 60%;
+    }
+
+    .slt {
+        border: 1px solid black;
+        border: 1px solid black;
+        height: 100%;
+        border-radius: 3px;
+        width: 55%;
+        outline: none;
+    }
+
+    .slt2 {
+        border: 1px solid black;
+        border: 1px solid black;
+        height: 100%;
+        border-radius: 3px;
+        width: 85%;
+        outline: none;
+        color: #5f5959;
+    }
+
+    .cart_heading {
+        color: black;
+        margin-left: 4rem;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="flex justify-between  m-[1.4em]">
+            <div class="flex gap-5">
+                <a href="index.html">
+                    <img src="https://greenemind.vercel.app/_next/static/media/logo.9681c5b9.svg" alt=""> </a>
+                <a href="" class="cart_btn bg-black w-[4em] flex justify-between p-[0.5rem] rounded">
+                    <span class="material-symbols-outlined invert ">shopping_cart</span>
+                    <div class="main_cart qt invert">0</div>
+                </a>
+            </div>
+            <ul class="flex gap-[3em] text-[rgb(168,145,145)] font-[600]">
+                <li><a href="" class="hover:underline">Home</a></li>
+                <li><a href="" class="hover:underline">About Us</a></li>
+                <li><a href="" class="hover:underline">Categories</a></li>
+                <li><a href="" class="hover:underline">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- temporay structure -->
+    <template class="hor_card">
+        <div class="card_style">
+            <div class="type2"></div>
+            <div class="img_name">
+                <div class="div_img2"><img src="imgs/list2.jpg" alt="img" class="img2"></div>
+                <div class="name font-semibold lg:text-[17px]"></div>
+            </div>
+            <div class="act_price2"></div>
+
+            <div class="productQuantity flex gap-7">
+                <div class="qty_sh">
+                    <!-- <button class="add material-symbols-outlined">add</button> -->
+                    <span class="quantity">1</span>
+                    <!-- <button class="remove material-symbols-outlined">remove</button> -->
+                </div>
+            </div>
+            <button class="cart2 hover:invert">
+                Remove
+            </button>
+
+        </div>
+    </template>
+
+    <h1 class="cart_heading">Your Cart:</h1>
+    <hr>
+    <main class="main2_1">
+        <div class="main2">
+        </div>
+        <aside class="total">
+            <h1>Selected Offer Summary</h1>
+            <hr>
+            <div class="part">
+                <div>Sub Total:</div>
+                <div class="sub_total">0</div>
+            </div>
+            <div class="part">
+                <div>Tax:</div>
+                <div class="tax">0</div>
+            </div>
+            <hr class="border-t border-gray-800">
+            <div class="part">
+                <div>FinalTotal</div>
+                <div class="final_total">0</div>
+            </div>
+
+            <form action="" class="payment">
+                <div class="payment1">
+                    <label class="label" for="payment_method">Payment method:</label>
+                    <select class="slt" id="payment_method" name="payment_method">
+                        <option value="">Select</option>
+                        <option value="Online_payment">Online payment</option>
+                        <option value="pay_on_door">Pay on Door</option>
+                    </select>
+                </div>
+
+                <input class="payment2" type="submit" value="Place Order">
+            </form>
+            <!-- Additional options if online payment -->
+            <div id="online" style="display: none">
+                <input class="slt2" type="text" id="account-num" name="account-num"
+                    placeholder="Enter your account Number:">
+            </div>
+        </aside>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer text-center text-lg-start text-white" style="background-color: #45526e">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0 w-[100%]">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="flex ">
+                    <hr class="w-100 clearfix d-md-none" />
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                        <p>
+                            <a class="text-white">Kitchen Electronic Products</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Digital Gadgets</a>
+                        </p>
+                        <p>
+                            <a class="text-white">BrandFlow</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Household Electronics</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a class="text-white">Your Account</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Help</a>
+                        </p>
+                    </div>
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3">
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2024 Copyright:
+                            <a class="text-white" href="https://mdbootstrap.com/">All rights reserved</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-google"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
